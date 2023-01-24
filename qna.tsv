@@ -1,0 +1,11 @@
+Describe how the platform can support doing A/B testing both from a marketers and developers perspective.	ab-testing.md
+Describe how the platform can support the implementation of web accessibility	web-accessibility.md
+Describe how the platform can support embedding structured data on content to be published	structured-data.md
+What standards do you support for extracting content into multiple channels?	api.md
+How to search content?	search.md
+How I can find content in Stroyblok?	search.md
+Information Architecture	informationarchitecture.md
+Describe how the platform can support easy maintenance of site hierarchy and order of content/fields/metadata?	informationarchitecture.md
+How does the solution handle content being made available to channels (multi-channel content)	multichannel-publishing.md
+Can Authors/Publishes/Workflow control which channels content is made available to. Is this possible through the presentation API?	multichannel-publishing.md
+How does the publishing flow work?	multichannel-publishing.md

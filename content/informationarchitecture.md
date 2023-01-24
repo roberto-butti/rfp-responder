@@ -1,0 +1,4 @@
+Storyblok embraces the Atomic Design approach (Design System) regarding the organization and structure of the contents. A detailed explanation: https://www.storyblok.com/tp/structure-space-atomic-design
+In terms of the structure of the content Storyblok has more than one tool like space, folders, story, Content type etc.  All of these elements are documented here: https://www.storyblok.com/docs/guide/essentials/content-structures
+
+In terms of content authoring, content production in general requires workflows to make sure that every team member gets involved in the process of creating the story. Storyblok allows you to define your custom workflows and rules to control the flow of this process. The content authoring is explained here: https://www.storyblok.com/docs/guide/in-depth/content-authoring
