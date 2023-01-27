@@ -1,0 +1,8 @@
+Question? Answer
+Which kind of API do you support? api
+Do you support GraphQL API? api
+Can you manage content via API? api
+Can you manage content in a programmatically way? api
+Can you publish the content in a scheduled way? app.release
+Can you schedule the publishing of the content? app.release
+Can you manage multiple environment like development, staging and production? app.pipeline
