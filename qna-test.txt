@@ -2,7 +2,29 @@ Question? Answer
 Which kind of API do you support? api
 Do you support GraphQL API? api
 Can you manage content via API? api
-Can you manage content in a programmatically way? api
+Can you manage content in a programmatic way? api
+How to retrieve and search content? search
+How the search works with Storyblok? search
+How to create the structure for the content? structure.informationarchitecture
+Is it possible to use the Atomic Design approach with Storyblok? structure.informationarchitecture
+Can I use Storyblok with a Design System? structure.informationarchitecture
+How to publish the content for multiple channel? multichannel-publishing
+How to publish the content for Mobile, for Web, for Digital Signage tools? multichannel-publishing
+How to create relations between content? structure.relations
+How to create a link between content? structure.relations
+Describe how the platform can ensure transparency for its users: history of changes, comments, feedback, issues, etc.? track-changes
+Describe how the platform can support handling videos for publishing? video
+Describe how the platform can support handling audio (e.g. podcasts) for publishing? audio
+Describe how the platform can support spell checking of text content for publishers? spell-checking
+Describe how the platform support redirection of deleted or unpublished articles. E.g. Redirection of broken internal article links or pages? redirect
+Describe how the platform can support the ability to create reusable blocks of content (composite modules, forms, CTAs, lists, etc.)? reusability
+How the content editors can reuse the content? reusability
+Describe what kind of media types/file formats the platform can support? media-supported
 Can you publish the content in a scheduled way? app.release
 Can you schedule the publishing of the content? app.release
+Describe how the platform supports the option to set publishing dates and expiry dates, and how the system automatically sets actions based on this? app.release
+Describe how the platform can support form validation on fields (also custom fields) to be allowed to publish? validation
+How to validate a specific field? validation
+Describe how the platform can support having different user roles (custom role, reviewer, author, publisher etc.)? roles-pemrissions
+
 Can you manage multiple environment like development, staging and production? app.pipeline
