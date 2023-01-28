@@ -1,0 +1,2 @@
+You can create any kind of role that meet the needs of your team. Custom roles are created by the user to further tailor your experience and management of your team and spaces on Storyblok. You may have designers, translators, or content creators who will not need access to the entire project, but rather specific parts of it. This is where custom roles and permissions come in handy.
+https://www.storyblok.com/docs/guide/in-depth/roles-and-permissions

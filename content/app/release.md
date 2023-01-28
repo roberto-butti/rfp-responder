@@ -1,0 +1,4 @@
+The platform has a specific functionality named Release  App.
+The Releases app is meant to be used for more advanced workflows and allows you to create/plan a release containing a bundle of content changes, which then can go through different approval stages.
+Imagine you want to prepare a group of specific changes in your Stories and release them in three weeks. To do this you can create a release where your changes will live. You can specify a date-time when the release will be published or you can trigger the release manually.
+https://www.storyblok.com/docs/guide/in-depth/content-authoring#releases-app

@@ -1,0 +1,1 @@
+Via the Links endpoint provided by the Content Delivery API, you can retrieve all the published links and the not published links and then make the difference between the link sets. The links object for example includes the parent ID, so you can redirect to the parent link.

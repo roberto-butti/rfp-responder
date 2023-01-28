@@ -1,0 +1,1 @@
+The Storyblok richtext editor and in general the html fields are compatible with tools like Gammarly

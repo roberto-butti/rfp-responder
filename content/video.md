@@ -1,0 +1,2 @@
+You can upload videos with a size depending on the max asset size of the chosen plan of your space. We highly recommend platforms such as Youtube and Vimeo to manage your videos, since they optimize the user experience. However, if you need it, you can use Storyblok for videos as well.
+Have a look at a custom field type created to embed vimeo videos. https://www.storyblok.com/tp/how-to-add-vimeo-video-headless-cms

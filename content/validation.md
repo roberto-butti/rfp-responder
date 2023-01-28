@@ -1,0 +1,2 @@
+Each custom field has some validation rules like max characters, min and max, and regular expression validation. For nested components, there is the opportunity to define rules for filling content (allowed a minimum number of blocks, allowed maximum, allow only specific components to be inserted).
+In any case, if you need more complex logic to be used for validation, you can write your logic starting from the template for the Custom type field.

@@ -1,0 +1,1 @@
+You can use the Asset manager for uploading audio files. Because of the decoupling in the frontend you can use the best audio player (https://howlerjs.com/, https://github.com/serversideup/amplitudejs) that fits your need (using the file stored in the Storyblok CDN as audio source)
