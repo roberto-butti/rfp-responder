@@ -14,7 +14,6 @@ const fs = require('fs');
     } else {
         return;
     }
-
     const readline = require('readline').createInterface({
         input: process.stdin,
         output: process.stdout,
@@ -25,7 +24,7 @@ const fs = require('fs');
         console.log("🧙 Let me try to answer to your question.");
         console.log("📜 Your question is: " + question);
         const response = await nlp.process('en', question);
-        //console.log(response);
+        console.log(response);
         let answer = ""
         if (response.answer) {
             answer = response.answer.trim()
@@ -35,6 +34,7 @@ const fs = require('fs');
         }
 
         try {
+            answer = answer.replace(".","/")
             const data = fs.readFileSync('./content/' + answer + '.md', 'utf8');
             console.log('💫💫💫💫💫💫💫💫💫💫💫💫💫')
             console.log(data);
