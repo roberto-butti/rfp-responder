@@ -52,7 +52,7 @@ app.get("/question", async  (req, res, next) => {
         //data = "Error:" + err
         console.error(err);
     }
-    res.send(data);
+    res.json({ "answer" : data});
 
     //res.json(response);
     //res.json(["Tony", "Lisa", "Michael", "Ginger", "Food"]);
