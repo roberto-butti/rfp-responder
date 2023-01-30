@@ -2,6 +2,7 @@ const { containerBootstrap } = require('@nlpjs/core');
 const { Nlp } = require('@nlpjs/nlp');
 const { LangEn } = require('@nlpjs/lang-en');
 const { dockStart, ConsoleConnector } = require('@nlpjs/basic');
+const cors = require('cors');
 
 const fs = require('fs');
 
@@ -18,6 +19,14 @@ let nlp;
         return;
     }
 })();
+app.use(cors({
+    origin: '*'
+}));
+app.get("/", async (req, res, next) => {
+    console.log(req)
+    res.send("Server is running , POST to /question")
+});
+
 app.post("/question", async  (req, res, next) => {
     console.log(req)
     question = req.body.question
