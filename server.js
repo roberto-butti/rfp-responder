@@ -41,7 +41,7 @@ app.get("/question", async  (req, res, next) => {
         answer=""
     }
 
-    let data = ""
+    let data = "Sorry I don't know the answer for your question: " + question
     try {
         answer = answer.replace(".", "/")
         data = fs.readFileSync('./content/' + answer + '.md', 'utf8');
@@ -49,7 +49,7 @@ app.get("/question", async  (req, res, next) => {
         console.log(data);
         console.log('💫💫💫💫💫💫💫💫💫💫💫💫💫')
     } catch (err) {
-        data = "Error:" + err
+        //data = "Error:" + err
         console.error(err);
     }
     res.send(data);
