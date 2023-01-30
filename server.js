@@ -27,9 +27,9 @@ app.get("/", async (req, res, next) => {
     res.send("Server is running , POST to /question")
 });
 
-app.post("/question", async  (req, res, next) => {
+app.get("/question", async  (req, res, next) => {
     console.log(req)
-    question = req.body.question
+    question = req.query.question
     console.log(question)
     const response = await nlp.process('en', question);
     console.log(response);
