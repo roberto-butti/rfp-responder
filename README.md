@@ -8,7 +8,7 @@ Each markdown file explains one specific topic.
 Each file has a name like `api.md`.The name (without extension) is important because is used to "tag" the questions.
 
 ### Questions
-The question are stored in the `qna-test.tsv` file.
+The question are stored in the `qna-test.txt` file.
 The first line of the file is the header.
 Then we have multiple lines.
 Each line is a question with the "tag" for the answer.
